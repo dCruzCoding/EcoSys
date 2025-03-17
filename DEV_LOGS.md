@@ -33,4 +33,4 @@ Este archivo documenta los errores, soluciones y decisiones tomadas durante el d
 
 ---
 
-### ¡Gracias por seguir el desarrollo de EcoSim! 🚀
+### ¡Gracias por seguir el desarrollo de EcoSys! 🚀

@@ -1,6 +1,6 @@
 # Cómo funciona el programa
 
-Este documento explica el funcionamiento del programa **EcoSim**, que simula un ecosistema virtual con dos modos de juego: **Supervivencia** y **Simulación**. A continuación, se describen los aspectos clave del programa.
+Este documento explica el funcionamiento del programa **EcoSys**, que simula un ecosistema virtual con dos modos de juego: **Supervivencia** y **Simulación**. A continuación, se describen los aspectos clave del programa.
 
 ---
 

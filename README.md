@@ -1,12 +1,12 @@
-# 🌿 EcoSim: Simulación de Ecosistemas
+# 🌿 EcoSys: Simulación de Ecosistemas
 
-EcoSim es un proyecto de simulación que modela la interacción entre individuos en un ecosistema virtual. El programa permite dos modos de juego: **Simulación** y **Supervivencia**, cada uno con diferentes reglas y objetivos. A continuación, se describe el funcionamiento general del programa y las características técnicas de la versión actual.
+EcoSys es un proyecto de simulación que modela la interacción entre individuos en un ecosistema virtual. El programa permite dos modos de juego: **Simulación** y **Supervivencia**, cada uno con diferentes reglas y objetivos. A continuación, se describe el funcionamiento general del programa y las características técnicas de la versión actual.
 
 
 ## 🌍 Descripción General
 
-### ¿Qué es EcoSim?
-EcoSim es una simulación que recrea un ecosistema virtual donde los individuos interactúan entre sí, pudiendo reproducirse, competir o morir. El objetivo del proyecto es explorar cómo las interacciones entre individuos afectan la dinámica de la población a lo largo del tiempo.
+### ¿Qué es EcoSys?
+EcoSys es una simulación que recrea un ecosistema virtual donde los individuos interactúan entre sí, pudiendo reproducirse, competir o morir. El objetivo del proyecto es explorar cómo las interacciones entre individuos afectan la dinámica de la población a lo largo del tiempo.
 
 ### 🎮 Modos de Juego
 1. **🛡️ Modo Supervivencia**:
