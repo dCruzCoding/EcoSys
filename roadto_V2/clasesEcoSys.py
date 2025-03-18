@@ -44,15 +44,17 @@ class Estadistica:
         return self.reproducciones, self.conflictos, self.muertes
     
 
-# ---------------------- Clase Individuo de SIMULACIÓN ----------------------
-# Representa un 'ser' dentro de la simulación
+
+# ---------------------- Clase Individuo  ----------------------
+# Representa un 'ser' dentro del sistema
 
 class Individuo:
-    def __init__(self, x, y, age=0, is_child=False):
+    def __init__(self, x, y, age=0, is_child=False, tipo=None):
         self.x = x  # Posicion X
         self.y = y  # Posiciion Y
         self.age = age  # Edad del individuo
         self.is_child = is_child  # Para distinguir si es un individuo hijo
+        self.tipo = tipo if tipo else self.asignar_tipo()  # Solo asigna si no se proporciona
 
     def move(self, grid_width, grid_height):   # que le pase estos argumentos para no tener q ponerlo aqui
         """ Mueve al individuo en una dirección aleatoria dentro de la cuadrícula """
@@ -73,16 +75,6 @@ class Individuo:
             self.is_child = False  # Se convierte en adulto
             ha_crecido = True  # Indica que ha crecido
         return ha_crecido
-
-
-
-
-# ---------------------- Clase Individuo de SUPERVIVENCIA ----------------------
-
-class Individuo_Supervivencia(Individuo):
-    def __init__(self, x, y, age=0, is_child=False, tipo=None):
-        super().__init__(x, y, age, is_child)  # Inicializa atributos de la clase padre
-        self.tipo = tipo if tipo else self.asignar_tipo()  # Solo asigna si no se proporciona
 
     def asignar_tipo(self):
         # Probabilidad para los tipos de individuos
