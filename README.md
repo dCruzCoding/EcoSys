@@ -40,22 +40,23 @@ EcoSys es una simulación que recrea un ecosistema virtual donde los individuos 
 El código está organizado en clases y funciones principales:
 
 #### 🧩 Clases Principales
-- **`Individuo`**:
+- **`Individual`**:
   - Representa a un individuo en el ecosistema, con atributos como posición (`x`, `y`), edad (`age`), y tipo (`ALIADO`, `HOSTIL` o `RANDOM`).
-- **`Estadistica`**:
+- **`Stats`**:
   - Lleva un registro de las interacciones (👶 reproducciones, ⚔️ conflictos y 💀 muertes).
 - **`Config`**:
   - Configura el tamaño del tablero y otros parámetros globales.
-- **`PoderJugador`**:
+- **`PowerPlayer`**:
   - Gestiona el poder especial del jugador en modo Supervivencia.
 
 #### 🛠️ Funciones Principales
-- **`pantalla_inicio()`**: Muestra la pantalla inicial para seleccionar el modo de juego.
-- **`input_screen_supervivencia()`**: Permite configurar el tamaño del tablero y la dificultad en modo Supervivencia.
-- **`input_screen_simulacion()`**: Permite configurar el tamaño del tablero, el número de individuos y las iteraciones en modo Simulación.
-- **`modo_supervivencia()`**: Ejecuta el modo Supervivencia.
-- **`modo_simulacion()`**: Ejecuta el modo Simulación.
-- Funciones de dibujo (`draw_grid()`, `draw_individuos()`, `draw_interacciones()`, etc.): Renderizan la simulación en la pantalla.
+- **`start_screen()`**: Muestra la pantalla inicial para seleccionar el modo de juego.
+- **`survival_input_screen()`**: Permite configurar el tamaño del tablero y la dificultad en modo Supervivencia.
+- **`simulation_input_screen()`**: Permite configurar el tamaño del tablero, el número de individuos y las iteraciones en modo Simulación.
+- **`survival_mode()`**: Ejecuta el modo Supervivencia.
+- **`simulation_mode()`**: Ejecuta el modo Simulación.
+- **`draw_simulation()`**: Contiene las funciones de dibujo (`draw_grid()`, `draw_individuos()`, `draw_interacciones()`, etc.) que renderizan la simulación en la pantalla.
+- ...
 
 ### 📋 Requisitos
 - Python 3.x.
@@ -64,9 +65,7 @@ El código está organizado en clases y funciones principales:
 ### 🚀 Ejecución
 Para ejecutar el programa, simplemente ejecuta el archivo principal.
 
-Actualmente el archivo principal con la versión más reciente es:
-
-[**ecoSys_v1.3.ipynb**](./roadto_V2/ecoSys_v1.3.ipynb)
+Actualmente el archivo principal con la versión más reciente es -----> [**ecoSys_v2.py**](./Version2/ecoSys_v2.py)
 
 
 
