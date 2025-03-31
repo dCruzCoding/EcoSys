@@ -8,15 +8,15 @@ class Config:
         if size == "pequeño":
             self.grid_width = 15
             self.grid_height = 15
-            self.max_individuos = 50  # Límite para tamaño pequeño
+            self.max_individuals = 50  # Límite para tamaño pequeño
         elif size == "medio":
             self.grid_width = 20
             self.grid_height = 20
-            self.max_individuos = 100  # Límite para tamaño medio
+            self.max_individuals = 100  # Límite para tamaño medio
         elif size == "grande":
             self.grid_width = 25
             self.grid_height = 25
-            self.max_individuos = 150  # Límite para tamaño grande
+            self.max_individuals = 150  # Límite para tamaño grande
 
         # Tamaño de cada celda y dimensiones de la pantalla
         self.cell_size = 30

@@ -2,6 +2,8 @@
 
 Este archivo documenta los errores, soluciones y decisiones tomadas durante el desarrollo del proyecto **EcoSys** a partir de la versión `ecoSys_v1.3`. Si deseas información sobre versiones anteriores, no dudes en contactarme.
 
+***28/03/2025***
+- Corrección parámetro 'max_individuos' de la clase 'Config' -> traducido a 'max_individuals' (olvidé traducirlo en clasesEcoSys).
 
 ***23/03/2025***
 - Últimos retoques para lanzar la versión 2: 
